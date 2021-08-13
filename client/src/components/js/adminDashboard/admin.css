@@ -1,0 +1,61 @@
+h3 {
+  color: black;
+}
+
+p {
+  left: 0;
+  bottom: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  width: 52vh;;
+  height: 51vh;
+  float: left;
+  padding: 10px 10px 10px 10px;
+  overflow: visible;
+}
+
+/* Remove extra left and right margins, due to padding */
+.rowlen {
+  margin: 0 1px;
+}
+
+/* Clear floats after the columns */
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+
+.b2 {
+  background-color: red;
+  position: absolute;
+  right:    20px;
+  bottom:   20px;
+  width: 20%;
+}
+.b1 {
+  background-color: gray;
+  position: absolute;
+  right:    150px;
+  bottom:   20px;
+  width: 20%;
+}
